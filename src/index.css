@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app{
+  background: rgb(35, 37, 49);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.app__text{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.create label{
+  color: whitesmoke !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px !important;
+}
+
+.box{
+  margin-bottom: 20px;
+}
